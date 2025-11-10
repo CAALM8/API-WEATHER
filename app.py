@@ -10,7 +10,7 @@ st.write("Enter a city name to get the current weather forecast using OpenWeathe
 city = st.text_input("🌆 Enter city name", placeholder="e.g., London, New York, Tokyo").strip()
 
 # API key (replace with your own key)
-API_KEY = "YOUR_OPENWEATHERMAP_API_KEY"
+API_KEY = "407cc785f57aabaed3706fa1b5436368"
 
 if city:
     st.info("Fetching weather data...")
